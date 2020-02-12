@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM  deepakkumarrts/jenkin
 RUN  apt-get update
 RUN  apt install apache2 -y
 ADD  . /var/www/html/
